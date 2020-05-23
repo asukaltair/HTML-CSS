@@ -40,3 +40,19 @@
 img {
 	width: 280px;
 }
+
+@media screen and (max-width:768px) {
+	.boxes {
+		width: 90%;
+	}
+	.box {
+		width: 100%;
+		margin: 0 0 20px 0;
+	}
+	.box:last-child {
+		margin-bottom: 0;
+	}
+	img {
+		width: 100%;
+	}
+}
